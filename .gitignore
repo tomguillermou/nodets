@@ -1,0 +1,13 @@
+# Dist folder
+dist
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Config
+config/local-*.json
+config/local.json
