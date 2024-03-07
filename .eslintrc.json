@@ -61,7 +61,6 @@
     "no-shadow": "error",
     "no-throw-literal": "error",
     "no-undef-init": "error",
-    "no-undefined": "error",
     "no-unneeded-ternary": "error",
     "no-useless-constructor": "error",
     "no-useless-return": "error",
@@ -74,6 +73,8 @@
     "require-await": "error",
     "spaced-comment": "error",
     "radix": "error",
+    "no-global-assign": "error",
+    "no-shadow-restricted-names": "error",
 
     // Layout & Formatting (https://eslint.org/docs/latest/rules/#layout--formatting)
     // ...
