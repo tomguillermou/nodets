@@ -1,5 +1,7 @@
 import config from 'config'
 
-function main(): void {}
+function main(): void {
+  console.log(`Launched: ${config.get('applicationName')}`)
+}
 
-console.log(`Launched: ${config.get('applicationName')}`)
+main()
