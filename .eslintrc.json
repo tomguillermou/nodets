@@ -46,7 +46,7 @@
     "no-inline-comments": "error",
     "no-invalid-this": "error",
     "no-labels": "error",
-    "no-magic-numbers": "error",
+    // "no-magic-numbers": "error",
     "no-mixed-operators": "error",
     "no-multi-assign": "error",
     "no-negated-condition": "error",
@@ -83,5 +83,14 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/explicit-function-return-type": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.test.ts"],
+      "rules": {
+        "max-lines": "off",
+        "max-lines-per-function": "off"
+      }
+    }
+  ]
 }
