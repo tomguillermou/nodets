@@ -7,7 +7,8 @@
     "build": "rm -rf dist && tsc --project tsconfig.build.json",
     "start": "node dist/main.js",
     "start:dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.test.ts' --exec 'ts-node src/main.ts'",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint -c .eslintrc.json --ext .ts ./src"
   },
   "devDependencies": {
     "@types/config": "^3.3.0",
