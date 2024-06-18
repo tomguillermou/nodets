@@ -1,8 +1,8 @@
 {
+  "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
-  "root": true,
   "rules": {
     // Possible Problems (https://eslint.org/docs/latest/rules/#possible-problems)
     "no-constructor-return": "error",

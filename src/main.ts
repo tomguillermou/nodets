@@ -1,3 +1,7 @@
-import config from 'config'
+import config from 'config';
 
-console.log(`Launched: ${config.get('applicationName')}`)
+export function main(): void {
+  console.log(`Launched: ${config.get('applicationName')}`);
+}
+
+main();
