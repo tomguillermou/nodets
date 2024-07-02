@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && tsc --project tsconfig.build.json",
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.test.ts' --exec 'ts-node src/main.ts'",
     "start": "node dist/main.js",
-    "start:dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.test.ts' --exec 'ts-node src/main.ts'",
-    "test": "jest",
-    "lint": "eslint -c .eslintrc.json --ext .ts ./src"
+    "test": "jest --passWithNoTests",
+    "lint": "eslint --config .eslintrc.json --ext .ts ./src"
   },
   "devDependencies": {
     "@types/config": "^3.3.0",
