@@ -8,6 +8,5 @@ logs
 # Dependency directories
 node_modules/
 
-# Config
-config/local-*.json
-config/local.json
+# Environment variables
+.env
