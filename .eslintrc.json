@@ -11,7 +11,6 @@
     "no-self-compare": "error",
     "no-template-curly-in-string": "error",
     "no-unused-private-class-members": "error",
-    "no-use-before-define": "error",
 
     // Suggestions (https://eslint.org/docs/latest/rules/#suggestions)
     "block-scoped-var": "error",
@@ -46,7 +45,6 @@
     "no-inline-comments": "error",
     "no-invalid-this": "error",
     "no-labels": "error",
-    // "no-magic-numbers": "error",
     "no-mixed-operators": "error",
     "no-multi-assign": "error",
     "no-negated-condition": "error",
@@ -62,7 +60,6 @@
     "no-throw-literal": "error",
     "no-undef-init": "error",
     "no-unneeded-ternary": "error",
-    "no-useless-constructor": "error",
     "no-useless-return": "error",
     "no-var": "error",
     "no-void": "error",
@@ -86,7 +83,7 @@
   },
   "overrides": [
     {
-      "files": ["*.test.ts"],
+      "files": ["*.spec.ts"],
       "rules": {
         "max-lines": "off",
         "max-lines-per-function": "off"

@@ -1,12 +1,3 @@
-# Dist folder
 dist
-
-# Logs
-logs
-*.log
-
-# Dependency directories
-node_modules/
-
-# Environment variables
+node_modules
 .env

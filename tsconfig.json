@@ -1,37 +1,19 @@
 {
+  /* Visit https://aka.ms/tsconfig to read more about this file */
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-
-    /* Language and Environment */
     "target": "es2020",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-
-    /* Modules */
     "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": "./src",
-    "paths": {},
     "resolveJsonModule": true,
-
-    /* Interop Constraints */
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
     "strict": true,
-    "noImplicitAny": true,
     "strictNullChecks": true,
-    "noImplicitThis": true,
-    "strictFunctionTypes": true,
-    "useUnknownInCatchVariables": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-
-    /* Completeness */
     "skipLibCheck": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
