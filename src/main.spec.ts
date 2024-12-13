@@ -1,7 +1,7 @@
-import { main } from './main';
+import { doSomething } from './main';
 
 describe('Main', () => {
-  it('should work', () => {
-    expect(() => main()).not.toThrow();
+  it('do something', () => {
+    expect(() => doSomething()).toThrow('Not implemented');
   });
 });
