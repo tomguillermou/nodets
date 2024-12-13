@@ -11,8 +11,7 @@
     "start": "node dist/main.js",
     "test": "jest --passWithNoTests",
     "lint": "eslint --ext .ts .",
-    "format": "prettier . --write",
-    "prepare": "husky"
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
