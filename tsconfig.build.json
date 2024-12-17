@@ -4,6 +4,5 @@
     "outDir": "dist",
     "removeComments": true
   },
-  "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts"]
 }
